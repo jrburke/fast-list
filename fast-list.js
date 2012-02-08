@@ -138,7 +138,7 @@ FastList.prototype =
 
 if ("undefined" !== typeof(exports)) module.exports = FastList
 else if ("function" === typeof(define) && define.amd) {
-  define("FastList", function() { return FastList })
+  define(function() { return FastList })
 } else (function () { return this })().FastList = FastList
 
 })()
